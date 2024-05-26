@@ -1,0 +1,17 @@
+body{
+    background-color: hsl(0, 0%, 81%);
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 13px;
+    font-family: "Barlow Semi Condensed";
+}
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
