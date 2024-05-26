@@ -49,6 +49,9 @@ main section>picture{
     margin: 0 0 0 1rem;
     display: block;
 }
+.name :nth-child(1){
+    font-weight: 500;
+}
 .name :nth-child(2){
     color: hsl(0, 0%, 81%, 50%);
 }
@@ -59,6 +62,36 @@ main section>p{
     color: hsl(0, 0%, 81%, 70%);
 }
 
+main> :nth-child(1){
+    background: url("../images/bg-pattern-quotation.svg");
+    background-color: hsl(263, 55%, 52%);
+    background-repeat: no-repeat;
+    background-position:calc(100% - 2em);
+    background-position-y:top;
+}
+main> :nth-child(2){
+    background-color:hsl(217, 19%, 35%);
+}
+main> :nth-child(3),
+main> :nth-child(5){
+    color: hsl(219, 29%, 14%);
+    background-color: hsl(0, 0%, 100%);
+}
+main> :nth-child(3) .name :nth-child(1),
+main> :nth-child(5) .name :nth-child(1){
+    color: hsl(219, 29%, 14%);
+}
+main> :nth-child(3) .name :nth-child(2),
+main> :nth-child(5) .name :nth-child(2){
+    color: hsla(219, 29%, 14%, 50%);
+}
+main> :nth-child(3) p,
+main> :nth-child(5) p{
+    color: hsla(219, 29%, 14%, 70%);
+}
+main> :nth-child(4){
+    background-color: hsl(219, 29%, 14%);
+}
 
 
 
