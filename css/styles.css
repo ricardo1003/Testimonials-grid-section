@@ -18,6 +18,7 @@ main{
 }
 main article{
     height: max-content;
+    margin: 4rem 0;
     width: 100%;
     box-sizing: border-box;
     display: grid;
@@ -116,9 +117,6 @@ main article> :nth-child(5){
 }
 
 @media only screen and (max-width:1072px){
-    body{
-        background-color: red;
-    }
     main article{
         grid-template-columns: repeat(16, 1fr);
     }
@@ -140,9 +138,6 @@ main article> :nth-child(5){
     }
 }
 @media only screen and (max-width:840px){
-    body{
-        background-color: blue;
-    }
     main article{
         grid-template-columns: repeat(6, 1fr);
     }
@@ -164,9 +159,6 @@ main article> :nth-child(5){
     }
 }
 @media only screen and (max-width:517px){
-    body{
-        background-color: green;
-    }
     main article{
         grid-template-columns: repeat(1, 1fr);
     }
@@ -178,14 +170,13 @@ main article> :nth-child(5){
     }
     main article> :nth-child(3){
         grid-column: span 1;
-        /* grid-column: span 1; */
     }
     main article> :nth-child(4){
         grid-column: span 1;
     }
     main article> :nth-child(5){
         grid-column: span 1;
-        /* grid-row: 4/5; */
+
     }
 }
 
